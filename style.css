@@ -1,0 +1,23 @@
+body {
+    background-color: green;
+
+}
+.container {
+    display: grid;
+    width: 800px;
+    gap: 50px;
+    grid-template-columns: auto 400px auto;
+    grid-template-rows: 200px 100px 100px;
+    
+    
+
+}
+.box {
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+    border: 5px solid black;
+}
